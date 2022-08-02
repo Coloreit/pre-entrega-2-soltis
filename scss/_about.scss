@@ -1,0 +1,50 @@
+/* Main de about.html */ 
+
+.nosotros {
+    display: flex;
+    width: 90%;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(4%);
+    margin: 20px;    
+
+    h3 {
+        color: #000000;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        /**background-color:rgb(0, 214, 57);**/
+        background-color: rgb(248, 167, 24);
+        box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        text-align: center;
+        background-color: rgba(249, 189, 215, 0.7);
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 1rem;
+    }
+}
+
+.fotos {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateX(6%);
+
+    img {
+        height: 500px;
+        border-radius: 1rem;
+        box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
+    }
+}

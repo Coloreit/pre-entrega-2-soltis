@@ -1,0 +1,178 @@
+@media screen and (max-width:1100px) {
+
+    .local img {
+        height: 60vh;
+    }
+
+    .galeria {
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 250px;
+        margin-top: 5px;
+    }
+
+    .indu {
+        grid-row-start: span 2;
+    } 
+
+    .foto-4 {
+        grid-column-start: span 3;
+    }
+
+    .img-pago {
+        width: 90%;
+        margin-top: 2rem;
+    }
+    
+    .contenedor {
+        width: 90%;
+        transform: translateX(10%);
+    }
+    
+    .pago {
+        width: 400px;
+        height: 300px;
+        margin-right: 10px;
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .nosotros p {
+        font-size: 1.2rem;
+    }
+    
+    .fotos {
+        width: 100%;
+
+        img {
+            height: 400px;
+            width: auto;
+            transform: translateX(-10);
+        }
+    }
+
+    .contact ul {
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media screen and (max-width:970px) {
+
+    #contact-main {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        margin: 5px;
+        padding: 5px;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width:740px) {
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 250px;
+        margin-top: 2px;
+    }
+
+    .indu {
+        grid-row-start: span 1;
+    } 
+    
+    .foto-4 {
+        grid-column-start: span 1;
+    }
+
+    .contenedor {
+        width: 100%;
+        transform: translateX(5%);
+    }
+
+    .pago {
+        width: 400px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width:520px) {
+
+    .logo-principal img {
+        height: 150px;
+        width: auto;
+        padding: 10px;
+        box-shadow: none;
+        position: absolute;
+        left: 20px;
+    } 
+
+    .local {
+        img {
+            display: flex;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    .galeria {
+        grid-auto-rows: 200px;
+    }
+
+    footer {
+        height: auto;
+        margin-top: 3rem;
+        padding: 5px;
+
+        div {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+
+    .pregunta {
+        h3 {
+            font-size: 1.2rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    #form1 {
+        width: 100%;
+        display: inline-block;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+
+    .galeria {
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 200px;
+        margin-top: 1px;
+    }
+
+    .contenedor {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 1rem;
+    }
+
+    .pago {
+        width: auto;
+        height: auto;
+    }
+
+    .nosotros p {
+        font-size: 1rem;
+    }
+}

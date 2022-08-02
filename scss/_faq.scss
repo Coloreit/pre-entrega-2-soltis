@@ -1,0 +1,28 @@
+/* Main de faq.html */ 
+
+.pregunta {
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        background-color:rgb(249, 189, 215);
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    p {
+        color: #000000;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1rem;
+        margin: 1rem;
+    }
+}

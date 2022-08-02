@@ -1,0 +1,21 @@
+/*Footer - Todos los HTML*/
+
+footer {
+    background-color: rgb(52, 196, 204);
+    width: 100%;
+    height: 60px;
+    color: #000000;
+    margin-top: 3rem;
+
+    div {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-around;
+
+        p {
+            justify-content: center;
+        }
+    }
+}

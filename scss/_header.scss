@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    color: #1a1a92;
+    font-size: 1.2em;
+}
+
+/*Colores: CELESTE: 52,196,204; NARANJA: 248,167,24; ROSA: 249,189,215; VERDE: 0,194,1*/
+
+/*Header*/
+.logo-principal {
+    font-size: 20px;
+    color: #1dd0f8;
+
+    img {
+        height: 200px;
+        width: auto;
+        border-radius: 20px;
+        box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
+    }
+
+    h1 {
+        display: none;
+        visibility: hidden;
+    }
+
+    p {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+/*Tabla de talles*/
+
+.talles h3 {
+    padding: 10px;
+}
+
+.tabla-talles{
+    width: 50%;
+    border: 3px solid rgb(248, 167, 24);
+    transform: translateX(50%);
+}
